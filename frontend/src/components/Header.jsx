@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, NavDropdown, Image, Container } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/forever.jpg';
 import logoReact from '../assets/react.svg'; 
 
 function Header() {

@@ -1,6 +1,6 @@
 import { Button, Badge, Image } from 'react-bootstrap';
 import '../styles/CuotaCard.css';
-import avatarDefault from '../assets/logoUniversal.png';
+import avatarDefault from '../assets/forever.jpg';
 
 function CuotaCard({ cuota, verComprobante, adjuntarComprobante }) {
   const estadoColor = {
