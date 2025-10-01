@@ -1,12 +1,14 @@
 import '../styles/Header.css';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Image } from 'react-bootstrap';
+import logo from '../assets/logo.png';
 
 function Header() {
   return (
     <Navbar className="navbar-custom" expand="lg">
       <Container>
-        <Navbar.Brand className="d-flex align-items-center gap-2">
-          <span>Asociación Cultural y Deportiva Universal</span>
+        <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
+          <Image src={logo} alt="Logo For Ever" className="logo-img" />
+          <span>Club Social, Cultural y Deportivo For Ever</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar-nav" />
         <Navbar.Collapse id="main-navbar-nav">

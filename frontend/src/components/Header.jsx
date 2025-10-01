@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, NavDropdown, Image, Container } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from '../assets/logoUniversal.png';
+import logo from '../assets/logo.png';
 import logoReact from '../assets/react.svg'; 
 
 function Header() {
@@ -66,7 +66,7 @@ function Header() {
       <Container fluid>
         <Navbar.Brand className="d-flex align-items-center">
           <Image src={logo} height="70" className="me-2" />
-          <span className="d-none d-lg-inline">Asociación Cultural y Deportiva Universal</span>
+          <span className="d-none d-lg-inline">Club Social, Cultural y Deportivo For Ever</span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,24 +1,39 @@
-.navbar-custom {
-  background-color: #198754;
-  padding: 0.5rem 1rem;
+body {
+  background-color: #FFFFFF;
 }
 
-.navbar-custom .navbar-brand {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+.card-custom {
+  border-radius: 15px;
+  border-color: #041A4C;
+}
+
+.btn-custom {
+  background-color: #041A4C;
   color: white;
-  font-weight: bold;
 }
 
+.btn-custom:hover {
+  background-color: #0a2a75; 
+}
+
+.h3-custom {
+  color: #041A4C;
+}
+
+.navbar-custom {
+  background-color: #041A4C;
+}
+
+.navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-  color: white !important;
+  color: white;
 }
 
 .navbar-custom .nav-link:hover {
-  text-decoration: underline;
+  color: #a9a9a9;
 }
 
-.navbar-custom .navbar-nav {
-  gap: 0.5rem;
+.logo-img {
+  width: 50px;
+  height: auto;
 }
